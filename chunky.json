@@ -5,18 +5,14 @@
   "androidSdkDir": "~/Library/Android/sdk",
   "sections": {
     "start": {
-      "stack": [
-        "intro"
-      ]
+      "stack": ["intro"]
     }
   },
-  "transitions": [
-    "replace://start"
-  ],
+  "transitions": ["replace://start"],
   "provisioning": {},
   "theme": {
-    "logoImage": "logo-white.png",
-    "logoLightImage": "logo.png",
+    "logoImage": "logo-white.svg",
+    "logoLightImage": "logo.svg",
     "headerColor": "#FF5722",
     "textColor": "#546E7A",
     "linkColor": "#0288D1",

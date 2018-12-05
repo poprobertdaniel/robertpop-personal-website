@@ -1,7 +1,7 @@
 {
   "name": "robertpop",
   "version": "0.1.0",
-  "description": "This is Chunky",
+  "description": "Robert Pop personal website",
   "scripts": {
     "test": "react-savor test",
     "lint": "react-savor lint",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/react-chunky/react-chunky-product.git"
   },
-  "homepage": "http://www.chunky.io",
+  "homepage": "",
   "dependencies": {
     "react-dom-chunky": "0.9.x"
   },

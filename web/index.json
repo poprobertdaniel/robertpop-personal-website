@@ -34,6 +34,14 @@
           }
         ]
       }
-    ]
+    ],
+    "socialMediaLinks": {
+      "facebook": "https://www.facebook.com/robert.pop.5",
+      "medium": "https://medium.com/@poprobertdaniel22",
+      "instagram": "https://www.instagram.com/robipop22/",
+      "github": "https://github.com/poprobertdaniel",
+      "linkedin": "https://www.linkedin.com/in/robert-pop-90a512b6/",
+      "twitter": "https://twitter.com/robipop22"
+    }
   }
 }

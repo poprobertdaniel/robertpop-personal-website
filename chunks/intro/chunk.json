@@ -5,20 +5,21 @@
       "title": "Welcome",
       "icon": "home",
       "path": "/",
+      "extendedMenu": {},
       "cover": {
         "image": "cover.r.png",
         "opacity": 0.5,
         "navigation": true,
-        "title": "This is my personal site",
-        "subtitle": "You won't believe your eyes",
+        "title": "Fullstack Product Developer",
+        "subtitle": "Web & mobile development also marketing & copyrighting content",
         "type": "default",
-        "primaryActionTitle": "Let's do this"
+        "primaryActionTitle": "Get in touch"
       },
       "components": {
         "intro": {
           "source": "summary",
           "text": "local://intro",
-          "image": "logo.png",
+          "image": "logo.svg",
           "textColor": "#37474F"
         }
       }
