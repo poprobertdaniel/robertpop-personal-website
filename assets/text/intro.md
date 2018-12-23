@@ -7,6 +7,6 @@
 
 ## I am always **seeking new challenges**. I mostly likes to **stretch** the **limits of JavaScript** and **new technologies**, generally speaking.
 
-<p style='text-align: center'>At the moment, I live in Cluj-Napoca.</p>
+<p style='text-align: center'>At the moment, developing from Cluj-Napoca.</p>
 
 <a href='' target='_blank' rel='noopener'></a>
