@@ -40,7 +40,8 @@ export default class TimelineComponent extends PureComponent {
 
     const strikeStyle = item.status === 'done' ? 'line-through' : '',
       opacity = item.status === 'todo' ? 0.5 : 1,
-      backgroundColor = item.status === 'progress' ? '#80CBC4' : ''
+      backgroundColor = item.status === 'progress' ? '#00ACC1' : '',
+      color = item.status === 'progress' ? '#fff' : '#424242'
 
     return (
       <Timeline.Item
@@ -66,7 +67,8 @@ export default class TimelineComponent extends PureComponent {
             style={{
               paddingRight: '5px',
               paddingLeft: '5px',
-              textDecoration: strikeStyle
+              textDecoration: strikeStyle,
+              color
             }}
           >
             {item.title}
@@ -102,8 +104,8 @@ export default class TimelineComponent extends PureComponent {
         <div style={{ display: 'flex', flex: 1, justifyContent: 'center' }}>
           <Button
             style={{
-              backgroundColor: '#009688',
-              borderColor: '#009688',
+              backgroundColor: '#00ACC1',
+              borderColor: '#00ACC1',
               width: '40%',
               marginBottom: this.props.isSmallScreen ? '30px' : ''
             }}
@@ -118,7 +120,7 @@ export default class TimelineComponent extends PureComponent {
           >
             About me
             <Icon
-              type="info-circle"
+              type="smile"
               spin={true}
               style={{ marginLeft: this.state.hovered ? '30px' : '5px' }}
             />

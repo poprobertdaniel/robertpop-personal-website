@@ -1,18 +1,22 @@
 {
   "name": "robipop22",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Robert Pop personal website",
   "scripts": {
     "test": "react-savor test",
     "lint": "react-savor lint",
     "coverage": "react-savor coverage",
-    "codeclimate": "react-savor codeclimate"
+    "codeclimate": "react-savor codeclimate",
+    "deploy:web": "aws s3 sync .chunky/web s3://robipop.io --profile robertpop",
+    "package:web": "chunky package web",
+    "push:web": "npm run package:web && npm run deploy:web",
+    "push": "npm run push:web"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/react-chunky/react-chunky-product.git"
   },
-  "homepage": "robipop22.io",
+  "homepage": "robipop.io",
   "dependencies": {
     "react-dom-chunky": "0.9.x",
     "react-reveal": "^1.2.2",
