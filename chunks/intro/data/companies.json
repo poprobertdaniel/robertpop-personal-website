@@ -2,7 +2,7 @@
   "doneColor": "#00796B",
   "doneIcon": "check-circle",
   "progressColor": "#00ACC1",
-  "progressIcon": "code",
+  "progressIcon": "loading",
   "todoColor": "#d32f2f",
   "todoIcon": "clock-circle",
   "milestones": [

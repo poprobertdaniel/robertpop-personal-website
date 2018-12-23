@@ -14,9 +14,14 @@ export default class HistoryScreen extends Screen {
     super.componentDidMount()
   }
 
+  goTo(link) {
+    this.props.history.push(link)
+  }
+
   renderTimeline() {
     return (
       <TimelineComponent
+        goToLink={() => this.goTo('/about')}
         isSmallScreen={this.isSmallScreen}
         milestones={Companies.milestones}
         doneColor={Companies.doneColor}

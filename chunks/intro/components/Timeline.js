@@ -108,7 +108,7 @@ export default class TimelineComponent extends PureComponent {
               marginBottom: this.props.isSmallScreen ? '30px' : ''
             }}
             type="primary"
-            href={'/about'}
+            onClick={this.props.goToLink}
             onMouseEnter={() => {
               this.setState({ hovered: true })
             }}

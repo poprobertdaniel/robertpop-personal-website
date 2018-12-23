@@ -5,6 +5,9 @@
       "title": "Welcome",
       "icon": "home",
       "path": "/",
+      "events": {
+        "main": "/contact"
+      },
       "extendedMenu": [
         {
           "id": "about",
@@ -30,13 +33,12 @@
       "cover": {
         "opacity": 0,
         "backgroundColor": "#F5F5F5",
+        "navigation": true,
         "color": "#00ACC1",
         "title": "Fullstack Product Developer",
         "subtitle": "Web & mobile development also marketing & copyrighting content",
         "type": "default",
-        "primaryActionTitle": "Get in touch",
-        "baffle": true,
-        "baffleClass": "cover-title"
+        "primaryActionTitle": "Get in touch"
       },
       "components": {
         "intro": {
