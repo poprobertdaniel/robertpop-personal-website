@@ -7,39 +7,12 @@
     "publicRedirect": "/register"
   },
   "footer": {
-    "sections": [
-      {
-        "title": "Get in touch",
-        "id": "social",
-        "elements": [
-          {
-            "id": "web",
-            "title": "Web",
-            "link": "http://carmel.io"
-          },
-          {
-            "id": "twitter",
-            "title": "Twitter",
-            "link": "http://twitter.com/carmelplatform"
-          },
-          {
-            "id": "telegram",
-            "title": "Telegram",
-            "link": "http://t.me/carmelplatform"
-          },
-          {
-            "id": "medium",
-            "title": "Medium",
-            "link": "http://medium.com/carmelplatform"
-          }
-        ]
-      }
-    ],
+    "sections": [],
     "socialMediaLinks": {
       "facebook": "https://www.facebook.com/robert.pop.5",
-      "medium": "https://medium.com/@poprobertdaniel22",
+      "medium": "https://medium.com/@robipop22",
       "instagram": "https://www.instagram.com/robipop22/",
-      "github": "https://github.com/poprobertdaniel",
+      "github": "https://github.com/robipop22",
       "linkedin": "https://www.linkedin.com/in/robert-pop-90a512b6/",
       "twitter": "https://twitter.com/robipop22"
     }

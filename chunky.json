@@ -11,8 +11,8 @@
   "transitions": ["replace://start"],
   "provisioning": {},
   "theme": {
-    "logoImage": "logo-white.svg",
-    "logoLightImage": "logo.svg",
+    "logoImage": "code.svg",
+    "logoLightImage": "code.svg",
     "headerColor": "#FF5722",
     "textColor": "#546E7A",
     "linkColor": "#0288D1",
@@ -20,15 +20,17 @@
     "linkHoverBackgroundColor": "#F5F5F5",
     "progressColor": "rgba(50,50,50,0.9)",
     "primaryColor": "#0097A7",
-    "secondaryColor": "#66BB6A",
+    "secondaryColor": "#00ACC1",
     "statusBarLight": false,
     "navigationColor": "#FFFFFF",
     "navigationTintColor": "#37474F",
     "backgroundColor": "#999999",
     "footerTintColor": "#CFD8DC",
     "footerHeaderColor": "#90A4AE",
-    "footerColor": "#546E7A",
-    "footerBottomColor": "#37474F"
+    "footerColor": "#00838F",
+    "footerBottomColor": "#006064",
+    "footerSocialIconsColor": "#CFD8DC",
+    "footerSocialIconsColorHover": "#00ACC1"
   },
   "info": {
     "copyright": "2018",

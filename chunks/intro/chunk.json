@@ -7,9 +7,9 @@
       "path": "/",
       "extendedMenu": {},
       "cover": {
-        "image": "cover.r.png",
-        "opacity": 0.5,
-        "navigation": true,
+        "opacity": 0,
+        "backgroundColor": "#F5F5F5",
+        "color": "#00ACC1",
         "title": "Fullstack Product Developer",
         "subtitle": "Web & mobile development also marketing & copyrighting content",
         "type": "default",
@@ -19,8 +19,11 @@
         "intro": {
           "source": "summary",
           "text": "local://intro",
-          "image": "logo.svg",
-          "textColor": "#37474F"
+          "image": "robipop22.png",
+          "textColor": "#00ACC1",
+          "animation": true,
+          "animationType": "zoom",
+          "animationOptions": ["top"]
         }
       }
     }

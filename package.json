@@ -15,7 +15,8 @@
   },
   "homepage": "",
   "dependencies": {
-    "react-dom-chunky": "0.9.x"
+    "react-dom-chunky": "0.9.x",
+    "react-reveal": "^1.2.2"
   },
   "devDependencies": {
     "react-savor": "0.x"
