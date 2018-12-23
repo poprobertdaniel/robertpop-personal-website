@@ -1,0 +1,25 @@
+{
+  "doneColor": "#00796B",
+  "doneIcon": "check-circle",
+  "progressColor": "#00ACC1",
+  "progressIcon": "code",
+  "todoColor": "#d32f2f",
+  "todoIcon": "clock-circle",
+  "milestones": [
+    {
+      "id": "1",
+      "title": "Evozon Systems -> summer 2015 - fall 2018",
+      "status": "done"
+    },
+    {
+      "id": "2",
+      "title": "Garmin Cluj -> September 2018 -> October 2018 ",
+      "status": "done"
+    },
+    {
+      "id": "3",
+      "title": "Fluid Trends -> October 2018 - present",
+      "status": "progress"
+    }
+  ]
+}

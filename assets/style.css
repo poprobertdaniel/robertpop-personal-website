@@ -13,3 +13,11 @@ h5,
 h6 {
   color: inherit;
 }
+
+p {
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
