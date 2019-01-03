@@ -1,10 +1,10 @@
 ## 📃
 
-## I like to write **tech articles** as well as **non-tech articles**.
+## I enjoy writing **tech articles** as well as **non-tech articles**.
 
 ## 💻
 
-## Also I like to share **personal experiences**, sharing my point of view while trying to **develop** **different products** or **little projects**.
+## Also I like to share **personal experiences**, expressing my point of view while trying to **develop** **different products** or **small projects**.
 
 ## 💹
 
@@ -14,9 +14,9 @@
 
 ## Applying **fluid thinking** for creating **product stories**, **addictive products**, **product market fit** and so on...
 
-## I'm trying to improve on **public speaking** by **holding meetups** and **presentations**. My last talk was about **JS Frameworks** at **Codecamp Cluj**.
+## I'm trying to improve on **public speaking** by **speaking at meetups** and **presentations**. My last talk was about **JS Frameworks** at **Codecamp Cluj**.
 
-## Love participating into **local meetups** while also holding some.
+## Love participating at **local meetups** while also conducting some of them.
 
 ## Latest meetup was based on **React** in the [React Cluj meetup group](https://www.meetup.com/reactcluj/). Other meetups included **end-to-end testing** with **Cypress**.
 
@@ -28,6 +28,6 @@
 
 ## You can find some of my projects **<a href='https://github.com/robipop22' target='_blank' rel='noopener'>here</a>**.
 
-## I'll try lately to **tweet more** and **write more** technical or non-technical **articles**.
+## I'll try to **tweet more** and **write more** technical or non-technical **articles**.
 
 ## 🤘

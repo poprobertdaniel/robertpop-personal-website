@@ -1,1 +1,1 @@
-Cloud services with which I have interacted are **<a href='https://aws.amazon.com/' target='_blank' rel='noopener'>AWS</a>**, **<a href='https://firebase.google.com/' target='_blank' rel='noopener'>Firebase</a>** and **<a href='https://zeit.co/' target='_blank' rel='noopener'>Zeit</a>**.
+Among my journey I worked with the following tools: **<a href='https://aws.amazon.com/' target='_blank' rel='noopener'>AWS</a>**, **<a href='https://firebase.google.com/' target='_blank' rel='noopener'>Firebase</a>** and **<a href='https://zeit.co/' target='_blank' rel='noopener'>Zeit</a>**.

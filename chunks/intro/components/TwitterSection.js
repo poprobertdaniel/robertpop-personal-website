@@ -1,12 +1,12 @@
 import React from 'react'
 import { Component, Components } from 'react-dom-chunky'
 import TwitterCard from './TwitterCard'
-import { Row, Col, Spin } from 'antd'
+import { Row, Col, Spin, Button, Icon } from 'antd'
 
 class TwitterSection extends Component {
   constructor(props) {
     super(props)
-    this.state = { ...super.state }
+    this.state = { ...super.state, hovered: false }
   }
 
   componentDidMount() {
@@ -22,7 +22,7 @@ class TwitterSection extends Component {
 
   renderComponent() {
     const { tweets } = this.state
-    const { text, textStyle } = this.props
+    const { text, textStyle, twitterAccount } = this.props
 
     return (
       <Row gutter={24} style={{ paddingLeft: '30px', paddingRight: '30px' }}>
@@ -49,6 +49,35 @@ class TwitterSection extends Component {
             />
           </Col>
         )}
+        <Col span={24}>
+          <Button
+            style={{
+              backgroundColor: '#00ACC1',
+              borderColor: '#00ACC1',
+              width: '20%',
+              marginBottom: this.props.isSmallScreen ? '30px' : '',
+              display: 'block',
+              margin: '0 auto'
+            }}
+            type="primary"
+            onClick={() => {
+              window.open(twitterAccount)
+            }}
+            onMouseEnter={() => {
+              this.setState({ hovered: true })
+            }}
+            onMouseLeave={() => {
+              this.setState({ hovered: false })
+            }}
+          >
+            See more
+            <Icon
+              type="twitter"
+              spin={true}
+              style={{ marginLeft: this.state.hovered ? '30px' : '5px' }}
+            />
+          </Button>
+        </Col>
       </Row>
     )
   }

@@ -5,6 +5,7 @@
       "title": "Welcome",
       "icon": "home",
       "path": "/",
+      "navigationLogo": true,
       "extendedMenu": [
         {
           "id": "about",
@@ -32,14 +33,27 @@
         "backgroundColor": "#757575",
         "video": "assets/bg.mp4",
         "navigation": true,
-        "color": "#00ACC1",
+        "color": "#1565C0",
         "title": "Fullstack Product Developer",
         "subtitle": "Web & mobile development also marketing & copyrighting content",
         "additionalProps": {
           "height": "100%"
         },
         "presentationHeight": "100%",
-        "type": "presentation"
+        "type": "presentation",
+        "titleStyle": {
+          "backgroundColor": "#fff",
+          "borderRadius": "5px",
+          "padding": "10px",
+          "boxShadow": "10px 10px 50px 0px rgba(66,224,245,1)",
+          "textShadow": "5px -3px 10px rgba(0, 0, 0, 0.5)"
+        },
+        "subtitleStyle": {
+          "backgroundColor": "#fff",
+          "borderRadius": "5px",
+          "padding": "10px",
+          "boxShadow": "10px 10px 50px 0px rgba(66,224,245,1)"
+        }
       },
       "components": {
         "intro": {
@@ -123,7 +137,8 @@
           "textStyle": {
             "color": "#2b4957"
           },
-          "twitterURL": "https://robipop22-twitter-feed.now.sh/timeline?user_id=robipop22"
+          "twitterURL": "https://robipop22-twitter-feed.now.sh/timeline?user_id=robipop22&count=6",
+          "twitterAccount": "https://twitter.com/robipop22"
         },
         "contact-page": {
           "source": "summary",
