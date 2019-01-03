@@ -1,5 +1,5 @@
 <br>
-# Welcome! 🙌
+# Hello my name is Robi! 👨‍💻
 
 ## I started my coding journey in the **summer of 2015** (before I only coded in highschool and a bit in the first year of college).
 

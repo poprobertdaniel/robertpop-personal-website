@@ -54,7 +54,7 @@ class TwitterSection extends Component {
             style={{
               backgroundColor: '#00ACC1',
               borderColor: '#00ACC1',
-              width: '20%',
+              width: '250px',
               marginBottom: this.props.isSmallScreen ? '30px' : '',
               display: 'block',
               margin: '0 auto'

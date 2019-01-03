@@ -37,7 +37,7 @@
         "title": "Fullstack Product Developer",
         "subtitle": "Web & mobile development also marketing & copyrighting content",
         "additionalProps": {
-          "height": "100%"
+          "height": "100vh"
         },
         "presentationHeight": "100%",
         "type": "presentation",
@@ -46,13 +46,17 @@
           "borderRadius": "5px",
           "padding": "10px",
           "boxShadow": "10px 10px 50px 0px rgba(66,224,245,1)",
-          "textShadow": "5px -3px 10px rgba(0, 0, 0, 0.5)"
+          "textShadow": "5px -3px 10px rgba(0, 0, 0, 0.5)",
+          "position": "relative",
+          "bottom": ""
         },
         "subtitleStyle": {
           "backgroundColor": "#fff",
           "borderRadius": "5px",
           "padding": "10px",
-          "boxShadow": "10px 10px 50px 0px rgba(66,224,245,1)"
+          "boxShadow": "10px 10px 50px 0px rgba(66,224,245,1)",
+          "position": "relative",
+          "bottom": ""
         }
       },
       "components": {

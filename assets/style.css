@@ -21,3 +21,11 @@ p {
 .text-center {
   text-align: center;
 }
+
+.video-wrapper video {
+  object-fit: cover;
+}
+
+a {
+  color: #0288d1;
+}

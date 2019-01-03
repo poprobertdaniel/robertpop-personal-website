@@ -1,7 +1,11 @@
 <br>
 ## Thanks for checking out my website. If you have any ideas regarding improvements just contact me, I'm always open for feedback.
 
-## Get in touch with me, at poprobertdaniel22@gmail.com
+## Get in touch with me, at:
+
+<h3 style='text-align: center;'>
+	poprobertdaniel22@gmail.com
+</h3>
 
 ## Or follow me on **<a href='https://twitter.com/robipop22' target='_blank' rel='noopener'>twitter</a>** for the latest updates.
 
