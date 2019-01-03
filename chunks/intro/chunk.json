@@ -29,12 +29,17 @@
       ],
       "cover": {
         "opacity": 0,
-        "backgroundColor": "#F5F5F5",
+        "backgroundColor": "#757575",
+        "video": "assets/bg.mp4",
         "navigation": true,
         "color": "#00ACC1",
         "title": "Fullstack Product Developer",
         "subtitle": "Web & mobile development also marketing & copyrighting content",
-        "type": "default"
+        "additionalProps": {
+          "height": "100%"
+        },
+        "presentationHeight": "100%",
+        "type": "presentation"
       },
       "components": {
         "intro": {
@@ -184,6 +189,15 @@
           "animation": true,
           "animationType": "bounce",
           "animationOptions": ["bottom"]
+        },
+        "contact-page": {
+          "source": "summary",
+          "text": "local://contact",
+          "image": "robipop22.png",
+          "textColor": "#00ACC1",
+          "animation": true,
+          "animationType": "zoom",
+          "animationOptions": ["right"]
         }
       }
     },

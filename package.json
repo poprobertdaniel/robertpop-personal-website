@@ -19,6 +19,7 @@
   },
   "homepage": "robipop.io",
   "dependencies": {
+    "material-components-web": "^0.42.1",
     "react-dom-chunky": "0.9.x",
     "react-reveal": "^1.2.2",
     "react-truncate": "^2.4.0",
