@@ -112,6 +112,14 @@
             "animation": true
           }
         ],
+        "twitter": {
+          "source": "twitterSection",
+          "text": "local://twitter",
+          "textStyle": {
+            "color": "#2b4957"
+          },
+          "twitterURL": "https://robipop22-twitter-feed.now.sh/timeline?user_id=robipop22"
+        },
         "contact-page": {
           "source": "summary",
           "text": "local://contact",
