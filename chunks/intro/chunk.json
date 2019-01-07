@@ -33,7 +33,7 @@
         "backgroundColor": "#757575",
         "video": "assets/bg.mp4",
         "navigation": true,
-        "color": "#1565C0",
+        "color": "#fff",
         "title": "Fullstack Product Developer",
         "subtitle": "Web & mobile development also marketing & copyrighting content",
         "additionalProps": {
@@ -42,19 +42,12 @@
         "presentationHeight": "100%",
         "type": "presentation",
         "titleStyle": {
-          "backgroundColor": "#fff",
-          "borderRadius": "5px",
           "padding": "10px",
-          "boxShadow": "10px 10px 50px 0px rgba(66,224,245,1)",
-          "textShadow": "5px -3px 10px rgba(0, 0, 0, 0.5)",
           "position": "relative",
           "bottom": ""
         },
         "subtitleStyle": {
-          "backgroundColor": "#fff",
-          "borderRadius": "5px",
           "padding": "10px",
-          "boxShadow": "10px 10px 50px 0px rgba(66,224,245,1)",
           "position": "relative",
           "bottom": ""
         }
