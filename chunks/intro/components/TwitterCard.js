@@ -43,9 +43,11 @@ class TwitterCard extends React.PureComponent {
                 <Body2 bold primary>
                   {name}
                 </Body2>
-                <Body2 bold primary>
-                  {author}
-                </Body2>
+                <div>
+                  <Body2 color={'#9E9E9E'} fontSize={'13px'}>
+                    @{author}
+                  </Body2>
+                </div>
               </GridCell>
               <GridCell phone="1" tablet="1" desktop="3">
                 <Icon

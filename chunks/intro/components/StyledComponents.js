@@ -59,7 +59,7 @@ export const Body2 = styled.p`
       ? props.color
       : '#FFFFFF'};
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: ${props => (props.fontSize ? props.fontSize : '16px')};
   font-weight: ${props =>
     props.bold ? 'bold' : props.light ? '300' : 'inherit'};
   text-decoration: ${props => (props.link ? 'underline' : 'inherit')};
