@@ -1,1 +1,0 @@
-Wrote **unit tests** using **<a href='https://jestjs.io/' target='_blank' rel='noopener'>Jest</a>** and **end to end tests** using **<a href='https://www.cypress.io/' target='_blank' rel='noopener'>Cypress</a>**.

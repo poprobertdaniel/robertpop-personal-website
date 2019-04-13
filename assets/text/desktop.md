@@ -1,1 +1,0 @@
-For the desktop platform I used **<a href='https://electronjs.org/' target='_blank' rel='noopener'>ElectronJS</a>** while building the **<a href='https://carmel.io' target='_blank' rel='noopener'>Carmel Studio</a>**.
