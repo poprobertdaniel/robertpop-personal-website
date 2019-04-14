@@ -1,0 +1,31 @@
+:root {
+    --navigation-background: transparent;
+}
+.navigator {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: var(--navigation-background);
+    position: fixed;
+}
+.navigator .left-side-header {
+    display: flex;
+    flex-grow: 1;
+}
+.navigator .left-side-header button {
+    height: 64px;
+    width: 64px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 35px;
+}
+.navigator .right-side-header {
+    display: flex;
+    margin-right: 30px;
+}
+.navigator .right-side-header button {
+    font-size: 16px;
+    cursor: pointer;
+}
+
