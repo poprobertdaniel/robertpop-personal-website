@@ -1,22 +1,65 @@
+:root {
+  --default-black-text: #3c3c3c;
+  --white: #fff;
+  --default-text-color: rgb(0, 172, 193);
+  --default-section-margin: 70px;
+}
 body {
-    margin: 0;
-    background-color: #fff;
-    padding: 0;
+  margin: 0;
+  background-color: #fff;
+  padding: 0;
 }
 p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 button {
-    background: transparent;
-    border: 0;
+  background: transparent;
+  border: 0;
 }
-h1, h2, h3, h4, h5 {
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
 }
 h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 h2 {
-    font-size: 2rem;
+  font-size: 2rem;
+}
+
+.slide-in {
+  z-index: 10;
+  position: absolute;
+  overflow: hidden;
+}
+
+.slide-in.from-left {
+  left: 0;
+}
+
+.slide-in.from-right {
+  right: 0;
+}
+
+.slide-in-content {
+  transition: transform 1.5s ease;
+}
+
+.slide-in.from-left .slide-in-content {
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+}
+
+.slide-in.from-right .slide-in-content {
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+}
+
+.slide-in.show .slide-in-content {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
 }

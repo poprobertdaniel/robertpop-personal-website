@@ -1,28 +1,87 @@
+.content h1,
+h2,
+h3 {
+  color: var(--default-text-color);
+}
 .intro {
-    padding-top: 5%;
-    display: flex;
-    height: 100vh;
-    align-items: flex-start;
-    align-self: flex-start;
-    flex-direction: column;
-    text-align: left;
-    background: rgb(19,108,138);
-    background: -moz-linear-gradient(90deg, rgba(19,108,138,1) 9%, rgba(17,150,208,1) 54%, rgba(0,212,255,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(19,108,138,1) 9%, rgba(17,150,208,1) 54%, rgba(0,212,255,1) 100%);
-    background: linear-gradient(90deg, rgba(19,108,138,1) 9%, rgba(17,150,208,1) 54%, rgba(0,212,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#136c8a",endColorstr="#00d4ff",GradientType=1);
+  padding-top: 10%;
+  display: flex;
+  height: 100vh;
+  align-items: flex-start;
+  align-self: flex-start;
+  flex-direction: column;
+  text-align: left;
+  background: rgb(19, 108, 138);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(19, 108, 138, 1) 9%,
+    rgba(17, 150, 208, 1) 54%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(19, 108, 138, 1) 9%,
+    rgba(17, 150, 208, 1) 54%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(19, 108, 138, 1) 9%,
+    rgba(17, 150, 208, 1) 54%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
-.intro h1, h2 {
-    display: block;
-    margin: 20px;
-    color: #fff;
+@media screen and (max-width: 768px) {
+  .intro {
+    padding-top: 20%;
+  }
 }
-.hello {
-    margin-top: 50px;
+.intro h1,
+h2 {
+  display: block;
+  margin: 20px;
+  color: var(--white);
+}
+.hello,
+.tech-stack,
+.web-platform,
+.mobile-platform {
+  margin-top: var(--default-section-margin);
+  width: 100%;
 }
 .hello img {
-    width: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
-.hello h2 {
-    color: rgb(0, 172, 193);
+
+.hello h2,
+h3 {
+  color: var(--default-text-color);
+  font-weight: 500;
+}
+
+.web-platform-image,
+.web-platform-description,
+.mobile-platform-image,
+.mobile-platform-description {
+  padding: 20px;
+  width: 50%;
+  color: var(--default-text-color);
+}
+
+.web-platform-image-content,
+.web-platform-description-content,
+.mobile-platform-image,
+.mobile-platform-description {
+  transition: transform 5s ease;
+}
+
+.web-platform-image,
+.mobile-platform-description {
+  left: 0;
+}
+
+.web-platform-description,
+.mobile-platform-image {
+  right: 0;
 }

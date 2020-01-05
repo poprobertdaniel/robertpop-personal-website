@@ -1,47 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel=icon type=image/png sizes=16x16 href=assets/favicon.ico>
-  <link href="styles/reset.css" rel=stylesheet>
-  <link href="styles/grid.css" rel=stylesheet>
-  <link href="styles/navigator.css" rel=stylesheet>
-  <link href="styles/homepage.css" rel=stylesheet>
-  <title>Robert Pop</title>
-</head>
-<body>
-  <div class="grid">
-    <header class="header">
-      <nav class="navigator">
-        <div class="left-side-header">
-          <button tabindex="1">
-            👨🏻‍💻
-          </button>
-        </div>
-        <div class="right-side-header">
-          <button aria-controls="button" tabindex="2">About</button>
-          <button tabindex="3">Blog</button>
-          <button tabindex="4">History</button>
-          <button tabindex="5">Contact</button>
-        </div>
-      </nav>
-
-    </header>
-    <main class="content" style="height: 1000px">
-      <section class="intro">
-        <h1>FullStack Product Developer</h1>
-        <h2>Web 💻, mobile 📱, backend ⏪ & cloud ☁ development also into marketing 💹, UX 👀 & copyrighting © content.</h2>
-      </section>
-      <section class="hello">
-        <h2>
-          Hello my name is Robi! 👋🏻
-        </h2>
-      </section>
-    </main>
-    <footer class="footer">
-
-    </footer>
-  </div>
-  <script type="text/javascript" src="scripts/nav.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel=icon type=image/png sizes=16x16 href=assets/favicon.ico>
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/grid.css" rel="stylesheet" />
+    <link href="styles/navigator.css" rel="stylesheet" />
+    <link href="styles/homepage.css" rel="stylesheet" />
+    <title>Robert Pop</title>
+  </head>
+  <body>
+    <div class="grid">
+      <header class="header">
+        <nav class="navigator">
+          <div class="left-side-header">
+            <button tabindex="1">
+              👨🏻‍💻
+            </button>
+          </div>
+          <div class="right-side-header">
+            <button aria-controls="button" tabindex="2">About</button>
+            <button tabindex="3">Blog</button>
+            <button tabindex="4">History</button>
+            <button tabindex="5">Contact</button>
+          </div>
+        </nav>
+      </header>
+      <main class="content">
+        <section class="intro">
+          <h1>FullStack Product Developer</h1>
+          <h2>
+            Web 💻, mobile 📱, backend ⏪ & cloud ☁ development also interested
+            into marketing 💹 & UX 👀.
+          </h2>
+        </section>
+        <section class="hello">
+          <img src="assets/robipop.png" />
+          <h1>
+            Hello my name is Robi! 👋🏻
+          </h1>
+          <h2>
+            I started my coding journey in the <b>summer of 2015</b> (before I
+            only coded in highschool and a bit in the first year of college).
+          </h2>
+          <h2>
+            I am a <b>tech enthusiast</b>, <b>JavaScript addict</b> with a
+            <b>creative mindset</b>.
+          </h2>
+          <h2>
+            I am always <b>seeking new challenges</b>. I mostly like to
+            <b>stretch</b> the <b>limits of JavaScript</b> and discovering
+            <b>new technologies</b>.
+          </h2>
+          <h3>
+            At the moment, creating products & tools from Cluj-Napoca.
+          </h3>
+        </section>
+        <section class="tech-stack">
+          <h1>Some of the tech stack I've been working with</h1>
+        </section>
+        <section class="web-platform">
+          <div id="web-platform">
+            <div class="slide-in from-left web-platform-image">
+              <div class="slide-in-content">image goes here</div>
+            </div>
+            <div class="slide-in from-right web-platform-description">
+              <div class="slide-in-content">
+                Web platform was the first one which I had interacted with. I
+                started learning VanillaJS, Backbone, JQuery, Sass and later on,
+                decided to focus on React. Also, I did some projects in Vue.
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="mobile-platform">
+          <div id="mobile-platform">
+            <div class="slide-in from-left mobile-platform-description">
+              <div class="slide-in-content">
+                I started creating mobile apps using React Native while
+                interacting with Java and Objective-C.
+              </div>
+              <div class="slide-in from-right mobile-platform-image">
+                <div class="slide-in-content">image goes here</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+    <script type="text/javascript" src="scripts/nav.js"></script>
+    <script type="text/javascript" src="scripts/triggerAnimation.js"></script>
+  </body>
 </html>
