@@ -37,6 +37,36 @@ function animate() {
   var mobilePlatformDescription = document.getElementsByClassName(
     "mobile-platform-description"
   )[0];
+  var desktopPlatformImage = document.getElementsByClassName(
+    "desktop-platform-image"
+  )[0];
+  var desktopPlatformDescription = document.getElementsByClassName(
+    "desktop-platform-description"
+  )[0];
+  var backendPlatformImage = document.getElementsByClassName(
+    "backend-platform-image"
+  )[0];
+  var backendPlatformDescription = document.getElementsByClassName(
+    "backend-platform-description"
+  )[0];
+  var cloudPlatformImage = document.getElementsByClassName(
+    "cloud-platform-image"
+  )[0];
+  var cloudPlatformDescription = document.getElementsByClassName(
+    "cloud-platform-description"
+  )[0];
+  var testingPlatformImage = document.getElementsByClassName(
+    "testing-platform-image"
+  )[0];
+  var testingPlatformDescription = document.getElementsByClassName(
+    "testing-platform-description"
+  )[0];
+  var othersPlatformImage = document.getElementsByClassName(
+    "others-platform-image"
+  )[0];
+  var othersPlatformDescription = document.getElementsByClassName(
+    "others-platform-description"
+  )[0];
   if (inView(webPlatformImage)) {
     webPlatformImage.classList.add("show");
   }
@@ -48,5 +78,35 @@ function animate() {
   }
   if (inView(mobilePlatformDescription)) {
     mobilePlatformDescription.classList.add("show");
+  }
+  if (inView(desktopPlatformImage)) {
+    desktopPlatformImage.classList.add("show");
+  }
+  if (inView(desktopPlatformDescription)) {
+    desktopPlatformDescription.classList.add("show");
+  }
+  if (inView(backendPlatformImage)) {
+    backendPlatformImage.classList.add("show");
+  }
+  if (inView(backendPlatformDescription)) {
+    backendPlatformDescription.classList.add("show");
+  }
+  if (inView(cloudPlatformImage)) {
+    cloudPlatformImage.classList.add("show");
+  }
+  if (inView(cloudPlatformDescription)) {
+    cloudPlatformDescription.classList.add("show");
+  }
+  if (inView(testingPlatformImage)) {
+    testingPlatformImage.classList.add("show");
+  }
+  if (inView(testingPlatformDescription)) {
+    testingPlatformDescription.classList.add("show");
+  }
+  if (inView(othersPlatformImage)) {
+    othersPlatformImage.classList.add("show");
+  }
+  if (inView(othersPlatformDescription)) {
+    othersPlatformDescription.classList.add("show");
   }
 }

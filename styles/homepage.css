@@ -45,7 +45,12 @@ h2 {
 .hello,
 .tech-stack,
 .web-platform,
-.mobile-platform {
+.mobile-platform,
+.desktop-platform,
+.backend-platform,
+.cloud-platform,
+.testing-platform,
+.others-platform {
   margin-top: var(--default-section-margin);
   width: 100%;
 }
@@ -60,28 +65,34 @@ h3 {
   font-weight: 500;
 }
 
+.web-container,
+.mobile-container,
+.desktop-container,
+.backend-container,
+.cloud-container,
+.testing-container,
+.others-container {
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .web-platform-image,
 .web-platform-description,
 .mobile-platform-image,
-.mobile-platform-description {
+.mobile-platform-description,
+.desktop-platform-image,
+.desktop-platform-description,
+.backend-platform-image,
+.backend-platform-description,
+.cloud-platform-image,
+.cloud-platform-description,
+.testing-platform-image,
+.testing-platform-description,
+.others-platform-image,
+.others-platform-description {
   padding: 20px;
   width: 50%;
   color: var(--default-text-color);
-}
-
-.web-platform-image-content,
-.web-platform-description-content,
-.mobile-platform-image,
-.mobile-platform-description {
-  transition: transform 5s ease;
-}
-
-.web-platform-image,
-.mobile-platform-description {
-  left: 0;
-}
-
-.web-platform-description,
-.mobile-platform-image {
-  right: 0;
 }

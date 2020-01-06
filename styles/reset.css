@@ -8,6 +8,7 @@ body {
   margin: 0;
   background-color: #fff;
   padding: 0;
+  width: 100vw;
 }
 p {
   margin: 0;
@@ -46,7 +47,7 @@ h2 {
 }
 
 .slide-in-content {
-  transition: transform 1.5s ease;
+  transition: transform 2s ease;
 }
 
 .slide-in.from-left .slide-in-content {
