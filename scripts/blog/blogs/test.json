@@ -1,0 +1,16 @@
+{
+  "title": {
+    "selector": "blog",
+    "markdown": "# this is a test"
+  },
+  "content": [
+    {
+      "selector": "main1",
+      "markdown": "# main1 header"
+    },
+    {
+      "selector": "main2",
+      "markdown": "# main2 header"
+    }
+  ]
+}
